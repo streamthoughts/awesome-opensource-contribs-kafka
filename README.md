@@ -10,6 +10,7 @@ Contributing to this project is easy! Just send a pull request and make the list
 
 * [Client](#clients)
 * [CLI/Tools](#cli--tools)
+* [CDC](#change-data-capture)
 * [Examples](#examples)
 * [Site Reliability Tools](#site-reliability-tools)
 * [Security / ACL](#security--acl)
@@ -32,8 +33,13 @@ Contributing to this project is easy! Just send a pull request and make the list
 
 * [Kafkacat](https://github.com/edenhill/kafkacat): Generic command line non-JVM Apache Kafka producer and consumer. [librdkafka - Apache Kafka C driver library](https://github.com/edenhill/kafkacat/blob/master/LICENSE)
 
-* [kafkacli](https://github.com/fhussonnois/kafkacli): CLI and Go Clients to manage Kafka components (Kafka Connect & SchemaRegistry)
-. [Apache License 2.0](https://github.com/fhussonnois/kafkacli/blob/master/LICENSE)
+* [kafkacli](https://github.com/fhussonnois/kafkacli): CLI and Go Clients to manage Kafka components (Kafka Connect & SchemaRegistry). [Apache License 2.0](https://github.com/fhussonnois/kafkacli/blob/master/LICENSE)
+
+## Change Data Capture
+
+* [Debezium](https://github.com/debezium/debezium): Debezium is an open source project that provides a low latency data streaming platform for change data capture (CDC). [Apache License 2.0](https://github.com/debezium/debezium/blob/master/LICENSE.txt)
+
+* [Maxwell](https://github.com/zendesk/maxwell): Maxwell's daemon, a mysql-to-json kafka producer. [Apache License 2.0](https://github.com/zendesk/maxwell/blob/master/LICENSE)
 
 ## Examples
 
