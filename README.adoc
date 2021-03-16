@@ -10,11 +10,16 @@ Contributing to this project is easy!Just send a pull request and make the list 
 
 toc::[]
 
+== Change Data Capture
+
+* https://github.com/debezium/debezium[Debezium]: Debezium is an open source project that provides a low latency data streaming platform for change data capture (CDC). https://github.com/debezium/debezium/blob/master/LICENSE.txt[Apache License 2.0]
+* https://github.com/zendesk/maxwell[Maxwell]: Maxwell's daemon, a mysql-to-json kafka producer. https://github.com/zendesk/maxwell/blob/master/LICENSE[Apache License 2.0]
+
 == Clients
 
-* https://github.com/edenhill/librdkafka[librdkafka]: The Apache Kafka C/C++ library. 2-clause BSD license
 * https://kafka.js.org/[kafkajs]: A modern Apache Kafka client for node.js https://github.com/tulios/kafkajs/blob/master/LICENSE[MIT License]
 * https://github.com/streamthoughts/kafka-clients-kotlin[kafka-clients-kotlin]: This projects gives Kotlin bindings and several extensions for Apache Kafka Clients.
+* https://github.com/edenhill/librdkafka[librdkafka]: The Apache Kafka C/C++ library. 2-clause BSD license
 
 == CLI / Tools
 
@@ -24,38 +29,15 @@ toc::[]
 
 == Configuration
 
-* https://kattlo.github.io/[kattlo]: Kattlo gives a way to manage topics, ACLs, users, schemas, ksqlDB, employing a evolutionary configuration. Easy to understand, easy to write and easy to apply. https://github.com/kattlo/kattlo-cli/blob/main/LICENSE[Apache License 2.0]
 * https://github.com/devshawn/kafka-gitops[kafka-gitops]: Manage Apache Kafka topics and generate ACLs through a desired state file. https://github.com/devshawn/kafka-gitops/blob/master/LICENSE[Apache License 2.0]
 * https://github.com/streamthoughts/kafka-specs[Kafka Specs]: Tool to ease and automate Apache Kafka cluster configuration management. https://github.com/streamthoughts/kafka-specs/blob/master/LICENSE[Apache License 2.0]
-
-== Change Data Capture
-
-* https://github.com/debezium/debezium[Debezium]: Debezium is an open source project that provides a low latency data streaming platform for change data capture (CDC). https://github.com/debezium/debezium/blob/master/LICENSE.txt[Apache License 2.0]
-* https://github.com/zendesk/maxwell[Maxwell]: Maxwell's daemon, a mysql-to-json kafka producer. https://github.com/zendesk/maxwell/blob/master/LICENSE[Apache License 2.0]
+* https://kattlo.github.io/[kattlo]: Kattlo gives a way to manage topics, ACLs, users, schemas, ksqlDB, employing a evolutionary configuration. Easy to understand, easy to write and easy to apply. https://github.com/kattlo/kattlo-cli/blob/main/LICENSE[Apache License 2.0]
 
 == Examples
 
 * https://github.com/confluentinc/kafka-streams-examples[Confluent Kafka Streams Examples]: Demo applications and code examples for Apache Kafka's Streams API. https://github.com/confluentinc/kafka-streams-examples/blob/5.4.0-post/LICENSE[Apache License 2.0]
 * https://github.com/confluentinc/examples[Confluent Examples]: Apache Kafka and Confluent Platform examples and demos. https://github.com/confluentinc/examples/blob/5.4.0-post/LICENSE[Apache License 2.0]
 * https://github.com/gwenshap/kafka-examples[kafka-examples]: Snippets and small examples demonstrating kafka features and configs. https://github.com/gwenshap/kafka-examples/blob/master/LICENSE[Apache License 2.0]
-
-== Site Reliability Tools
-
-* https://github.com/DataDog/kafka-kit[Datadog Kafka-kit]: Kafka data mapping and recovery tools. https://github.com/DataDog/kafka-kit/blob/master/LICENSE[Apache License 2.0]
-* https://github.com/streamthoughts/kafka-monitoring-stack-docker-compose[kafka-monitoring-stack-docker-compose]: Demonstration on how to monitor Kafka using Prometheus and Grafana. https://github.com/streamthoughts/kafka-monitoring-stack-docker-compose/blob/master/LICENSE[Apache License 2.0]
-* https://github.com/linkedin/Burrow[Linkedin - Burrow]: Kafka Consumer Lag Checking. https://github.com/linkedin/Burrow/blob/master/LICENSE[Apache License 2.0]
-* https://github.com/linkedin/cruise-control[Linkedin - Cruise Control]: Cruise-control is the first of its kind to fully automate the dynamic workload rebalance and self-healing of a kafka cluster.It provides great value to Kafka users by simplifying the operation of Kafka clusters. https://github.com/linkedin/cruise-control/blob/master/LICENSE[BSD 2-Clause "Simplified" License]
-* https://github.com/linkedin/kafka-monitor[Linkedin - Xinfra Monitor]: Xinfra Monitor monitors the availability of Kafka clusters by producing synthetic workloads using end-to-end pipelines to obtain derived vital statistics - E2E latency, service availability & message loss rate.It reassigns partition & trigger preferred leader election to ensure each broker acts as leader of at least 1 partition of monitor topic. https://github.com/linkedin/kafka-monitor/blob/master/LICENSE[Apache License 2.0]
-* https://github.com/pinterest/doctorkafka[Pinterest Doctor Kafka]: DoctorKafka is a service for Kafka cluster auto healing and workload balancing. https://github.com/pinterest/doctorkafka/blob/master/LICENSE[Apache License 2.0]
-* https://github.com/uber/chaperone[Uber - Chaperone ]: As Kafka audit system, Chaperone monitors the completeness and latency of data stream.The audit metrics are persisted in database for Kafka users to quantify the loss of their topics if any. https://github.com/uber/chaperone/blob/master/LICENSE[Apache License 2.0]
-
-== Performance
-
-* https://github.com/corunet/kloadgen[kloadgen]: KLoadGen is kafka load generator plugin for jmeter designed to work with AVRO schema Registries. https://github.com/corunet/kloadgen/blob/master/LICENSE[MPL 2.0]
-
-== Security / ACL
-
-* https://github.com/simplesteph/kafka-security-manager[kafka-security-manager]: Manage your Kafka ACL at scale. https://github.com/simplesteph/kafka-security-manager/blob/master/LICENSE.txt[MIT License]
 
 == Infrastructure
 
@@ -65,48 +47,65 @@ toc::[]
 
 == Kafka Streams
 
-* https://github.com/LGouellec/kafka-streams-dotnet[kafka-streams-dotnet]: .NET Stream Processing Library for Apache Kafka
-* https://faust.readthedocs.io/en/latest/[faust]: A library for building streaming applications in Python. https://github.com/robinhood/faust/blob/master/LICENSE[BSD License]
-* https://github.com/streamthoughts/azkarra-streams[AzkarraStreams]: Azkarra Streams is a lightweight Java framework which makes easy to develop and operate Kafka Streams applications. https://github.com/streamthoughts/azkarra-streams/blob/master/LICENSE[Apache License 2.0]
+* https://github.com/streamthoughts/azkarra-streams[Azkarra Streams]: Azkarra Streams is a lightweight Java framework which makes easy to develop and operate Kafka Streams applications. https://github.com/streamthoughts/azkarra-streams/blob/master/LICENSE[Apache License 2.0]
+* https://faust.readthedocs.io/en/latest/[Faust]: A library for building streaming applications in Python. https://github.com/robinhood/faust/blob/master/LICENSE[BSD License]
 * https://github.com/lovoo/goka[GoKa]: Goka is a compact yet powerful distributed stream processing library for Apache Kafka written in Go. https://github.com/lovoo/goka/blob/master/LICENSE[BSD 3-Clause "New" or "Revised" License]
 * https://github.com/fhussonnois/kafkastreams-cep[Kafka Streams CEP]: Complex Event Processing on top of Kafka Streams (https://github.com/fhussonnois/kafkastreams-cep/blob/master/LICENCE[Apache License 2.0]
+* https://github.com/LGouellec/kafka-streams-dotnet[Kafka Streams .NET]: .NET Stream Processing Library for Apache Kafka
 * https://github.com/zz85/kafka-streams-viz[Kafka Streams Viz]: A tool helps visualize stream topologies by generating nice looking diagrams from a kafka stream topology descriptions.
+
+== Performance
+
+* https://github.com/corunet/kloadgen[kloadgen]: KLoadGen is kafka load generator plugin for jmeter designed to work with AVRO schema Registries. https://github.com/corunet/kloadgen/blob/master/LICENSE[MPL 2.0]
 
 == Query/SQL
 
 * https://ksqldb.io/[ksqlDB]: The event streaming database purpose-built for stream processing applications. https://github.com/confluentinc/ksql/blob/master/LICENSE[Confluent Community License Agreement Version 1.0]
 
+== Replication
+
+* https://github.com/apache/kafka/tree/trunk/connect/mirror[Mirror Maker 2]: MM2 leverages the Connect framework to replicate topics between Kafka clusters. https://github.com/apache/kafka/blob/trunk/LICENSE[Apache License 2.0]
+* https://github.com/uber/uReplicator[Uber uReplicator]: Improvement of Apache Kafka Mirrormaker. https://github.com/uber/uReplicator/blob/master/LICENSE[Apache License 2.0]
+
 == REST API
 
 * https://github.com/confluentinc/kafka-rest[Kafka REST Proxy]: Confluent REST Proxy for Kafka. https://github.com/confluentinc/kafka-rest/blob/master/LICENSE[Confluent Community License Agreement Version 1.0]
 
-== Replication
-
-* https://github.com/apache/kafka/tree/trunk/connect/mirror[Mirror Maker 2]: MM2 leverages the Connect framework to replicate topics between Kafka clusters. https://github.com/apache/kafka/blob/trunk/LICENSE[Apache License 2.0]
-
-* https://github.com/uber/uReplicator[Uber uReplicator]: Improvement of Apache Kafka Mirrormaker. https://github.com/uber/uReplicator/blob/master/LICENSE[Apache License 2.0]
-
 == Schema / Data
 
-* https://github.com/confluentinc/schema-registry[Confluent Schema Registry]: Confluent Schema Registry for Kafka. https://github.com/confluentinc/schema-registry/blob/master/LICENSE[Confluent Community License Agreement Version 1.0]
 * https://javro.github.io/[javro]: Javro is an interface allowing you to write Avro schemas with ease, to validate it, and to preview it into JSON format with samples. - https://github.com/javro/javro/blob/master/LICENSE[Gpl 3.0]
+* https://github.com/confluentinc/schema-registry[Confluent Schema Registry]: Confluent Schema Registry for Kafka. https://github.com/confluentinc/schema-registry/blob/master/LICENSE[Confluent Community License Agreement Version 1.0]
+
+== Security / ACL
+
+* https://github.com/simplesteph/kafka-security-manager[kafka-security-manager]: Manage your Kafka ACL at scale. https://github.com/simplesteph/kafka-security-manager/blob/master/LICENSE.txt[MIT License]
+
+== Site Reliability Tools
+
+* https://github.com/linkedin/Burrow[Burrow(Linkedin)]: Kafka Consumer Lag Checking. https://github.com/linkedin/Burrow/blob/master/LICENSE[Apache License 2.0]
+* https://github.com/uber/chaperone[Chaperone( Uber)]: As Kafka audit system, Chaperone monitors the completeness and latency of data stream.The audit metrics are persisted in database for Kafka users to quantify the loss of their topics if any. https://github.com/uber/chaperone/blob/master/LICENSE[Apache License 2.0]
+* https://github.com/linkedin/cruise-control[Cruise Control(Linkedin)]: Cruise-control is the first of its kind to fully automate the dynamic workload rebalance and self-healing of a kafka cluster.It provides great value to Kafka users by simplifying the operation of Kafka clusters. https://github.com/linkedin/cruise-control/blob/master/LICENSE[BSD 2-Clause "Simplified" License]
+* https://github.com/pinterest/doctorkafka[Doctor Kafka(Pinterest)]: DoctorKafka is a service for Kafka cluster auto healing and workload balancing. https://github.com/pinterest/doctorkafka/blob/master/LICENSE[Apache License 2.0]
+* https://github.com/DataDog/kafka-kit[kafka-kit (Datadog)]: Kafka data mapping and recovery tools. https://github.com/DataDog/kafka-kit/blob/master/LICENSE[Apache License 2.0]
+* https://github.com/linkedin/kafka-monitor[Kafka Monitor(Linkedin)]: Xinfra Monitor monitors the availability of Kafka clusters by producing synthetic workloads using end-to-end pipelines to obtain derived vital statistics - E2E latency, service availability & message loss rate.It reassigns partition & trigger preferred leader election to ensure each broker acts as leader of at least 1 partition of monitor topic. https://github.com/linkedin/kafka-monitor/blob/master/LICENSE[Apache License 2.0]
+* https://github.com/streamthoughts/kafka-monitoring-stack-docker-compose[kafka-monitoring-stack-docker-compose]: Demonstration on how to monitor Kafka using Prometheus and Grafana. https://github.com/streamthoughts/kafka-monitoring-stack-docker-compose/blob/master/LICENSE[Apache License 2.0]
 
 == Test
 
-* https://github.com/jpzk/mockedstreams[Mocked Streams]: Scala DSL for Unit-Testing Processing Topologies in Kafka Streams. https://github.com/jpzk/mockedstreams/blob/master/LICENSE[Apache License 2.0]
 * https://github.com/salesforce/kafka-junit[Kafka Junit]: This library wraps Kafka's embedded test cluster, allowing you to more easily create and run integration tests using JUnit against a "real" kafka server running within the context of your tests.No need to stand up an external kafka cluster! https://github.com/salesforce/kafka-junit/blob/master/LICENSE.txt[BSD 3-Clause "New" or "Revised" License]
 * https://kafka.apache.org/24/documentation/streams/developer-guide/testing.html[kafka-streams-test-utils]: Testing Kafka Streams.Apache License 2.0
+* https://github.com/jpzk/mockedstreams[Mocked Streams]: Scala DSL for Unit-Testing Processing Topologies in Kafka Streams. https://github.com/jpzk/mockedstreams/blob/master/LICENSE[Apache License 2.0]
 * https://www.testcontainers.org/modules/kafka/[Test Container for Apache Kafka]: Testcontainers can be used to automatically instantiate and manage Apache Kafka containers.More precisely Testcontainers uses the official Docker images for Confluent OSS Platform. https://github.com/testcontainers/testcontainers-java/blob/master/LICENSE[MIT License]
 
 == UI/Cluster Management
 
-* https://github.com/yahoo/CMAK[CMAK]: CMAK (previously known as Kafka Manager) is a tool for managing Apache Kafka clusters.See below for details about the name change. https://github.com/yahoo/CMAK/blob/master/LICENSE[Apache License 2.0]
 * https://github.com/tchiotludo/akhq[AKHQ]: Kafka GUI for Apache Kafka to manage topics, topics data, consumers group, schema registry, connect and more. https://github.com/tchiotludo/kafkahq/blob/dev/LICENSE[Apache License 2.0]
+* https://github.com/yahoo/CMAK[CMAK]: CMAK (previously known as Kafka Manager) is a tool for managing Apache Kafka clusters.See below for details about the name change. https://github.com/yahoo/CMAK/blob/master/LICENSE[Apache License 2.0]
 * https://github.com/obsidiandynamics/kafdrop[Kafdrop – Kafka Web UI]: Kafdrop is a web UI for viewing Kafka topics and browsing consumer groups.The tool displays information such as brokers, topics, partitions, consumers, and lets you view messages. https://github.com/obsidiandynamics/kafdrop/blob/master/LICENSE[Apache License 2.0]
 * https://www.kafka-eagle.org/[Kafka Eagle]: A easy and high-performance monitoring system, as well as offsets or metadata and other kafka information. https://github.com/smartloli/kafka-eagle/blob/master/LICENSE[Apache License 2.0]
 * https://kafkawize.com/[Kafkawize]: Kafkawize : A Self service Apache Kafka Topic Management tool/portal.A Web application which automates the process of creating and browsing Kafka topics, acls, schemas by introducing roles/authorizations to users of various teams of an org. https://github.com/muralibasani/kafkawize/blob/master/LICENSE[Apache License 2.0]
-* https://github.com/zalando-incubator/remora[Remora]: Kafka consumer lag-checking application for monitoring, written in Scala and Akka HTTP; a wrap around the Kafka consumer group command.Integrations with Cloudwatch and Datadog.Authentication recently added - https://github.com/zalando-incubator/remora/blob/master/LICENSE[MIT License]
 * https://github.com/oslabs-beta/klustr[klustr]: Monitoring tool and graphic visualizer for Apache Kafka that helps you track key metrics about your cluster in real-time! - https://github.com/oslabs-beta/klustr/blob/main/LICENSE[MIT License]
+* https://github.com/zalando-incubator/remora[Remora]: Kafka consumer lag-checking application for monitoring, written in Scala and Akka HTTP; a wrap around the Kafka consumer group command.Integrations with Cloudwatch and Datadog.Authentication recently added - https://github.com/zalando-incubator/remora/blob/master/LICENSE[MIT License]
 
 == Other Awesome Lists about Apache Kafka & Data Engineering
 * https://github.com/gunnarmorling/awesome-opensource-data-engineering/[Awesome Open-Source Data Engineering]
