@@ -19,7 +19,9 @@ toc::[]
 
 * https://kafka.js.org/[kafkajs]: A modern Apache Kafka client for node.js https://github.com/tulios/kafkajs/blob/master/LICENSE[MIT License]
 * https://github.com/streamthoughts/kafka-clients-kotlin[kafka-clients-kotlin]: This projects gives Kotlin bindings and several extensions for Apache Kafka Clients.
+* https://github.com/kafka-rust/kafka-rust[Kafka Rust]: Rust client for Apache Kafka - https://github.com/kafka-rust/kafka-rust/blob/master/LICENCE[MIT License]
 * https://github.com/edenhill/librdkafka[librdkafka]: The Apache Kafka C/C++ library. 2-clause BSD license
+* https://github.com/Shopify/sarama[Sarama]: Sarama is a Go library for Apache Kafka 0.8, and up. https://github.com/Shopify/sarama/blob/master/LICENSE[MIT License]
 
 == CLI / Tools
 
@@ -73,13 +75,13 @@ toc::[]
 
 == Schema / Data
 
-* https://javro.github.io/[javro]: Javro is an interface allowing you to write Avro schemas with ease, to validate it, and to preview it into JSON format with samples. - https://github.com/javro/javro/blob/master/LICENSE[Gpl 3.0]
+* https://javro.github.io/[Javro]: Javro is an interface allowing you to write Avro schemas with ease, to validate it, and to preview it into JSON format with samples. - https://github.com/javro/javro/blob/master/LICENSE[Gpl 3.0]
 * https://github.com/confluentinc/schema-registry[Confluent Schema Registry]: Confluent Schema Registry for Kafka. https://github.com/confluentinc/schema-registry/blob/master/LICENSE[Confluent Community License Agreement Version 1.0]
 
 == Security / ACL
 
 * https://github.com/simplesteph/kafka-security-manager[kafka-security-manager]: Manage your Kafka ACL at scale. https://github.com/simplesteph/kafka-security-manager/blob/master/LICENSE.txt[MIT License]
-
+* https://github.com/QuickSign/kafka-encryption[kafka-encryption]: About Kafka End to End Encryption - https://github.com/QuickSign/kafka-encryption/blob/master/LICENSE[Apache License 2.0]
 == Site Reliability Tools
 
 * https://github.com/linkedin/Burrow[Burrow(Linkedin)]: Kafka Consumer Lag Checking. https://github.com/linkedin/Burrow/blob/master/LICENSE[Apache License 2.0]
