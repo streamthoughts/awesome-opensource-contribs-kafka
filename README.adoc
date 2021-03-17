@@ -37,13 +37,14 @@ toc::[]
 
 == Examples
 
+* https://github.com/confluentinc/demo-scene/[Confluent `demo-scene`]: 👾 Scripts and samples to support Confluent Demos and Talks.
 * https://github.com/confluentinc/kafka-streams-examples[Confluent Kafka Streams Examples]: Demo applications and code examples for Apache Kafka's Streams API. https://github.com/confluentinc/kafka-streams-examples/blob/5.4.0-post/LICENSE[Apache License 2.0]
-* https://github.com/confluentinc/examples[Confluent Examples]: Apache Kafka and Confluent Platform examples and demos. https://github.com/confluentinc/examples/blob/5.4.0-post/LICENSE[Apache License 2.0]
+* https://github.com/confluentinc/examples[Confluent Examples]: Apache Kafka and Confluent examples and demos. https://github.com/confluentinc/examples/blob/5.4.0-post/LICENSE[Apache License 2.0]
 * https://github.com/gwenshap/kafka-examples[kafka-examples]: Snippets and small examples demonstrating kafka features and configs. https://github.com/gwenshap/kafka-examples/blob/master/LICENSE[Apache License 2.0]
 
 == Infrastructure
 
-* https://github.com/confluentinc/cp-docker-images[Confluent Docker Images]: Docker images for Confluent Platform. [Apache License 2.0](Apache License 2.0)
+* https://hub.docker.com/u/confluentinc/[Confluent Docker Images]: Docker images for Confluent Platform. [Apache License 2.0](Apache License 2.0)
 * https://github.com/confluentinc/cp-ansible[Confluent Platform Ansible]: Ansible playbooks for the Confluent Platform. https://github.com/confluentinc/cp-ansible/blob/5.4.0-post/LICENSE.md[Apache License 2.0]
 * https://strimzi.io/[Strimzi]: Strimzi provides a way to run an Apache Kafka cluster on Kubernetes in various deployment configurations. https://strimzi.io/LICENSE[Apache License 2.0]
 
@@ -82,6 +83,7 @@ toc::[]
 
 * https://github.com/simplesteph/kafka-security-manager[kafka-security-manager]: Manage your Kafka ACL at scale. https://github.com/simplesteph/kafka-security-manager/blob/master/LICENSE.txt[MIT License]
 * https://github.com/QuickSign/kafka-encryption[kafka-encryption]: About Kafka End to End Encryption - https://github.com/QuickSign/kafka-encryption/blob/master/LICENSE[Apache License 2.0]
+
 == Site Reliability Tools
 
 * https://github.com/linkedin/Burrow[Burrow(Linkedin)]: Kafka Consumer Lag Checking. https://github.com/linkedin/Burrow/blob/master/LICENSE[Apache License 2.0]
