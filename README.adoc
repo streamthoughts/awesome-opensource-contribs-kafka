@@ -27,7 +27,9 @@ toc::[]
 
 * https://github.com/edenhill/kafkacat[Kafkacat]: Generic command line non-JVM Apache Kafka producer and consumer. https://github.com/edenhill/kafkacat/blob/master/LICENSE[librdkafka - Apache Kafka C driver library]
 * https://github.com/fhussonnois/kafkacli[kafkacli]: CLI and Go Clients to manage Kafka components (Kafka Connect & SchemaRegistry). https://github.com/fhussonnois/kafkacli/blob/master/LICENSE[Apache License 2.0]
-* https://github.com/mmolimar/kukulcan[kukulcan]: A REPL for Apache Kafka https://github.com/mmolimar/kukulcan/blob/master/LICENSE[Apache License 2.0]
+* https://github.com/devshawn/kafka-shell[Kafka Shell]: ⚡A supercharged, interactive Kafka shell built on top of the existing Kafka CLI tools. https://github.com/devshawn/kafka-shell/blob/master/LICENSE[Apache License 2.0]
+* https://github.com/mmolimar/kukulcan[kukulcan]: A REPL for Apache Kafka - https://github.com/mmolimar/kukulcan/blob/master/LICENSE[Apache License 2.0]
+* https://github.com/adevinta/zoe[Zoe]: The Kafka CLI for humans - https://github.com/adevinta/zoe/blob/master/LICENSE.md[MIT License]
 
 == Configuration
 
