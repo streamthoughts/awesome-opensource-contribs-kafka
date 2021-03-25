@@ -19,7 +19,7 @@ toc::[]
 
 * https://kafka.js.org/[kafkajs]: A modern Apache Kafka client for node.js https://github.com/tulios/kafkajs/blob/master/LICENSE[MIT License]
 * https://github.com/streamthoughts/kafka-clients-kotlin[kafka-clients-kotlin]: This projects gives Kotlin bindings and several extensions for Apache Kafka Clients.
-* https://github.com/kafka-rust/kafka-rust[Kafka Rust]: Rust client for Apache Kafka - https://github.com/kafka-rust/kafka-rust/blob/master/LICENCE[MIT License]
+* https://github.com/kafka-rust/kafka-rust[Kafka Rust]: Rust client for Apache Kafka. https://github.com/kafka-rust/kafka-rust/blob/master/LICENCE[MIT License]
 * https://github.com/edenhill/librdkafka[librdkafka]: The Apache Kafka C/C++ library. 2-clause BSD license
 * https://github.com/Shopify/sarama[Sarama]: Sarama is a Go library for Apache Kafka 0.8, and up. https://github.com/Shopify/sarama/blob/master/LICENSE[MIT License]
 
@@ -28,8 +28,8 @@ toc::[]
 * https://github.com/edenhill/kafkacat[Kafkacat]: Generic command line non-JVM Apache Kafka producer and consumer. https://github.com/edenhill/kafkacat/blob/master/LICENSE[librdkafka - Apache Kafka C driver library]
 * https://github.com/fhussonnois/kafkacli[kafkacli]: CLI and Go Clients to manage Kafka components (Kafka Connect & SchemaRegistry). https://github.com/fhussonnois/kafkacli/blob/master/LICENSE[Apache License 2.0]
 * https://github.com/devshawn/kafka-shell[Kafka Shell]: ⚡A supercharged, interactive Kafka shell built on top of the existing Kafka CLI tools. https://github.com/devshawn/kafka-shell/blob/master/LICENSE[Apache License 2.0]
-* https://github.com/mmolimar/kukulcan[kukulcan]: A REPL for Apache Kafka - https://github.com/mmolimar/kukulcan/blob/master/LICENSE[Apache License 2.0]
-* https://github.com/adevinta/zoe[Zoe]: The Kafka CLI for humans - https://github.com/adevinta/zoe/blob/master/LICENSE.md[MIT License]
+* https://github.com/mmolimar/kukulcan[kukulcan]: A REPL for Apache Kafka. https://github.com/mmolimar/kukulcan/blob/master/LICENSE[Apache License 2.0]
+* https://github.com/adevinta/zoe[Zoe]: The Kafka CLI for humans. https://github.com/adevinta/zoe/blob/master/LICENSE.md[MIT License]
 
 == Configuration
 
@@ -67,6 +67,7 @@ toc::[]
 == Query/SQL
 
 * https://ksqldb.io/[ksqlDB]: The event streaming database purpose-built for stream processing applications. https://github.com/confluentinc/ksql/blob/master/LICENSE[Confluent Community License Agreement Version 1.0]
+* https://github.com/mmolimar/ksql-jdbc-driver[ksql-jdbc-driver]: JDBC driver for Apache Kafka. https://github.com/mmolimar/ksql-jdbc-driver/blob/master/LICENSE[Apache License 2.0]
 
 == Replication
 
@@ -79,13 +80,13 @@ toc::[]
 
 == Schema / Data
 
-* https://javro.github.io/[Javro]: Javro is an interface allowing you to write Avro schemas with ease, to validate it, and to preview it into JSON format with samples. - https://github.com/javro/javro/blob/master/LICENSE[Gpl 3.0]
+* https://javro.github.io/[Javro]: Javro is an interface allowing you to write Avro schemas with ease, to validate it, and to preview it into JSON format with samples. https://github.com/javro/javro/blob/master/LICENSE[Gpl 3.0]
 * https://github.com/confluentinc/schema-registry[Confluent Schema Registry]: Confluent Schema Registry for Kafka. https://github.com/confluentinc/schema-registry/blob/master/LICENSE[Confluent Community License Agreement Version 1.0]
 
 == Security / ACL
 
 * https://github.com/simplesteph/kafka-security-manager[kafka-security-manager]: Manage your Kafka ACL at scale. https://github.com/simplesteph/kafka-security-manager/blob/master/LICENSE.txt[MIT License]
-* https://github.com/QuickSign/kafka-encryption[kafka-encryption]: About Kafka End to End Encryption - https://github.com/QuickSign/kafka-encryption/blob/master/LICENSE[Apache License 2.0]
+* https://github.com/QuickSign/kafka-encryption[kafka-encryption]: About Kafka End to End Encryption. https://github.com/QuickSign/kafka-encryption/blob/master/LICENSE[Apache License 2.0]
 
 == Site Reliability Tools
 
@@ -111,8 +112,8 @@ toc::[]
 * https://github.com/obsidiandynamics/kafdrop[Kafdrop – Kafka Web UI]: Kafdrop is a web UI for viewing Kafka topics and browsing consumer groups.The tool displays information such as brokers, topics, partitions, consumers, and lets you view messages. https://github.com/obsidiandynamics/kafdrop/blob/master/LICENSE[Apache License 2.0]
 * https://www.kafka-eagle.org/[Kafka Eagle]: A easy and high-performance monitoring system, as well as offsets or metadata and other kafka information. https://github.com/smartloli/kafka-eagle/blob/master/LICENSE[Apache License 2.0]
 * https://kafkawize.com/[Kafkawize]: Kafkawize : A Self service Apache Kafka Topic Management tool/portal.A Web application which automates the process of creating and browsing Kafka topics, acls, schemas by introducing roles/authorizations to users of various teams of an org. https://github.com/muralibasani/kafkawize/blob/master/LICENSE[Apache License 2.0]
-* https://github.com/oslabs-beta/klustr[klustr]: Monitoring tool and graphic visualizer for Apache Kafka that helps you track key metrics about your cluster in real-time! - https://github.com/oslabs-beta/klustr/blob/main/LICENSE[MIT License]
-* https://github.com/zalando-incubator/remora[Remora]: Kafka consumer lag-checking application for monitoring, written in Scala and Akka HTTP; a wrap around the Kafka consumer group command.Integrations with Cloudwatch and Datadog.Authentication recently added - https://github.com/zalando-incubator/remora/blob/master/LICENSE[MIT License]
+* https://github.com/oslabs-beta/klustr[klustr]: Monitoring tool and graphic visualizer for Apache Kafka that helps you track key metrics about your cluster in real-time. https://github.com/oslabs-beta/klustr/blob/main/LICENSE[MIT License]
+* https://github.com/zalando-incubator/remora[Remora]: Kafka consumer lag-checking application for monitoring, written in Scala and Akka HTTP; a wrap around the Kafka consumer group command.Integrations with Cloudwatch and Datadog.Authentication recently added. https://github.com/zalando-incubator/remora/blob/master/LICENSE[MIT License]
 
 == Other Awesome Lists about Apache Kafka & Data Engineering
 * https://github.com/gunnarmorling/awesome-opensource-data-engineering/[Awesome Open-Source Data Engineering]
