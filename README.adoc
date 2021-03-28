@@ -22,6 +22,7 @@ toc::[]
 * https://github.com/kafka-rust/kafka-rust[Kafka Rust]: Rust client for Apache Kafka. https://github.com/kafka-rust/kafka-rust/blob/master/LICENCE[MIT License]
 * https://github.com/edenhill/librdkafka[librdkafka]: The Apache Kafka C/C++ library. 2-clause BSD license
 * https://github.com/Shopify/sarama[Sarama]: Sarama is a Go library for Apache Kafka 0.8, and up. https://github.com/Shopify/sarama/blob/master/LICENSE[MIT License]
+* https://github.com/twmb/franz-go[franz-go] Franz-go is a feature complete client written in native Go. https://github.com/twmb/franz-go/blob/master/LICENSE[BSD 3-Clause License]
 
 == CLI / Tools
 
