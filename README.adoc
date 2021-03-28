@@ -98,6 +98,7 @@ toc::[]
 * https://github.com/DataDog/kafka-kit[kafka-kit (Datadog)]: Kafka data mapping and recovery tools. https://github.com/DataDog/kafka-kit/blob/master/LICENSE[Apache License 2.0]
 * https://github.com/linkedin/kafka-monitor[Kafka Monitor(Linkedin)]: Xinfra Monitor monitors the availability of Kafka clusters by producing synthetic workloads using end-to-end pipelines to obtain derived vital statistics - E2E latency, service availability & message loss rate.It reassigns partition & trigger preferred leader election to ensure each broker acts as leader of at least 1 partition of monitor topic. https://github.com/linkedin/kafka-monitor/blob/master/LICENSE[Apache License 2.0]
 * https://github.com/streamthoughts/kafka-monitoring-stack-docker-compose[kafka-monitoring-stack-docker-compose]: Demonstration on how to monitor Kafka using Prometheus and Grafana. https://github.com/streamthoughts/kafka-monitoring-stack-docker-compose/blob/master/LICENSE[Apache License 2.0]
+* https://github.com/cloudhut/kminion[KMinion (CloudHut)]: KMinion is a feature rich Prometheus exporter for consumer lag and cluster monitoring. https://github.com/cloudhut/kminion/blob/master/LICENSE[MIT License]
 
 == Test
 
@@ -115,6 +116,7 @@ toc::[]
 * https://kafkawize.com/[Kafkawize]: Kafkawize : A Self service Apache Kafka Topic Management tool/portal.A Web application which automates the process of creating and browsing Kafka topics, acls, schemas by introducing roles/authorizations to users of various teams of an org. https://github.com/muralibasani/kafkawize/blob/master/LICENSE[Apache License 2.0]
 * https://github.com/oslabs-beta/klustr[klustr]: Monitoring tool and graphic visualizer for Apache Kafka that helps you track key metrics about your cluster in real-time. https://github.com/oslabs-beta/klustr/blob/main/LICENSE[MIT License]
 * https://github.com/zalando-incubator/remora[Remora]: Kafka consumer lag-checking application for monitoring, written in Scala and Akka HTTP; a wrap around the Kafka consumer group command.Integrations with Cloudwatch and Datadog.Authentication recently added. https://github.com/zalando-incubator/remora/blob/master/LICENSE[MIT License]
+* https://github.com/cloudhut/kowl[Kowl]: Kowl is a modern Kafka Web UI for exploring Kafka messages, configurations and more with a focus on a good UI/UX. Written in Go & React. https://github.com/cloudhut/kowl/blob/master/LICENSE[Apache 2.0 License]
 
 == Other Awesome Lists about Apache Kafka & Data Engineering
 * https://github.com/gunnarmorling/awesome-opensource-data-engineering/[Awesome Open-Source Data Engineering]
