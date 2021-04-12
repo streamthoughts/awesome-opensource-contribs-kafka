@@ -78,11 +78,13 @@ toc::[]
 == REST API
 
 * https://github.com/confluentinc/kafka-rest[Kafka REST Proxy]: Confluent REST Proxy for Kafka. https://github.com/confluentinc/kafka-rest/blob/master/LICENSE[Confluent Community License Agreement Version 1.0]
+* https://karapace.io/[Karapace]: Karapace (Aiven) is the open source REST proxy you can run where you need it; drop-in replacement for Confluent REST Proxy. [https://github.com/aiven/karapace/blob/master/LICENSE[Apache License 2.0]
 
 == Schema / Data
 
 * https://javro.github.io/[Javro]: Javro is an interface allowing you to write Avro schemas with ease, to validate it, and to preview it into JSON format with samples. https://github.com/javro/javro/blob/master/LICENSE[Gpl 3.0]
 * https://github.com/confluentinc/schema-registry[Confluent Schema Registry]: Confluent Schema Registry for Kafka. https://github.com/confluentinc/schema-registry/blob/master/LICENSE[Confluent Community License Agreement Version 1.0]
+* https://karapace.io/[Karapace]: Karapace (Aiven) is the open source schema registry you can run on your own platforms. Alternative (compatible replacement) for Confluent Schema Registry, supports Avro and JSON Schema. [https://github.com/aiven/karapace/blob/master/LICENSE[Apache License 2.0]
 
 == Security / ACL
 
