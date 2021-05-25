@@ -78,7 +78,8 @@ toc::[]
 == REST API
 
 * https://github.com/confluentinc/kafka-rest[Kafka REST Proxy]: Confluent REST Proxy for Kafka. https://github.com/confluentinc/kafka-rest/blob/master/LICENSE[Confluent Community License Agreement Version 1.0]
-* https://karapace.io/[Karapace]: Karapace (Aiven) is the open source REST proxy you can run where you need it; drop-in replacement for Confluent REST Proxy. [https://github.com/aiven/karapace/blob/master/LICENSE[Apache License 2.0]
+* https://karapace.io/[Karapace]: Karapace (Aiven) is the open source REST proxy you can run where you need it; drop-in replacement for Confluent REST Proxy. https://github.com/aiven/karapace/blob/master/LICENSE[Apache License 2.0]
+* https://github.com/mailgun/kafka-pixy[Kafka Pixy]: gRPC/REST proxy for Kafka. https://github.com/mailgun/kafka-pixy/blob/master/LICENSE[Apache License 2.0]
 
 == Schema / Data
 
