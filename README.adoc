@@ -52,6 +52,11 @@ toc::[]
 * https://github.com/confluentinc/cp-ansible[Confluent Platform Ansible]: Ansible playbooks for the Confluent Platform. https://github.com/confluentinc/cp-ansible/blob/5.4.0-post/LICENSE.md[Apache License 2.0]
 * https://strimzi.io/[Strimzi]: Strimzi provides a way to run an Apache Kafka cluster on Kubernetes in various deployment configurations. https://strimzi.io/LICENSE[Apache License 2.0]
 
+== Kafka Connect
+
+* https://github.com/streamthoughts/kafka-connect-client[kafka-connect-client]: Java client library for Apache Kafka Connect REST Interface. https://github.com/streamthoughts/kafka-connect-client/blob/main/LICENSE[Apache License 2.0]
+* https://github.com/gunnarmorling/kcctl[kcctl]: A command line client for Kafka Connect https://github.com/gunnarmorling/kcctl/blob/main/LICENSE.txt[Apache License 2.0]
+
 == Kafka Streams
 
 * https://github.com/streamthoughts/azkarra-streams[Azkarra Streams]: Azkarra Streams is a lightweight Java framework which makes easy to develop and operate Kafka Streams applications. https://github.com/streamthoughts/azkarra-streams/blob/master/LICENSE[Apache License 2.0]
