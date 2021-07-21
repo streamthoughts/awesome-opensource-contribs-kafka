@@ -25,7 +25,7 @@ toc::[]
 * https://github.com/twmb/franz-go[franz-go] Franz-go is a feature complete client written in native Go. https://github.com/twmb/franz-go/blob/master/LICENSE[BSD 3-Clause License]
 
 == CLI / Tools
-
+* [Firehose](https://github.com/odpf/firehose) - Firehose is an extensible, no-code, and cloud-native service to load real-time streaming data from Kafka to data stores, data lakes, and analytical storage systems.
 * https://github.com/edenhill/kafkacat[Kafkacat]: Generic command line non-JVM Apache Kafka producer and consumer. https://github.com/edenhill/kafkacat/blob/master/LICENSE[librdkafka - Apache Kafka C driver library]
 * https://github.com/fhussonnois/kafkacli[kafkacli]: CLI and Go Clients to manage Kafka components (Kafka Connect & SchemaRegistry). https://github.com/fhussonnois/kafkacli/blob/master/LICENSE[Apache License 2.0]
 * https://github.com/devshawn/kafka-shell[Kafka Shell]: ⚡A supercharged, interactive Kafka shell built on top of the existing Kafka CLI tools. https://github.com/devshawn/kafka-shell/blob/master/LICENSE[Apache License 2.0]
@@ -65,6 +65,7 @@ toc::[]
 * https://github.com/fhussonnois/kafkastreams-cep[Kafka Streams CEP]: Complex Event Processing on top of Kafka Streams (https://github.com/fhussonnois/kafkastreams-cep/blob/master/LICENCE[Apache License 2.0]
 * https://github.com/LGouellec/kafka-streams-dotnet[Kafka Streams .NET]: .NET Stream Processing Library for Apache Kafka
 * https://github.com/zz85/kafka-streams-viz[Kafka Streams Viz]: A tool helps visualize stream topologies by generating nice looking diagrams from a kafka stream topology descriptions.
+* [Dagger](https://github.com/odpf/dagger) - Dagger is an easy-to-use, SQL framework to process built on top of Apache Flink for stateful pro
 
 == Performance
 
@@ -85,9 +86,10 @@ toc::[]
 * https://github.com/confluentinc/kafka-rest[Kafka REST Proxy]: Confluent REST Proxy for Kafka. https://github.com/confluentinc/kafka-rest/blob/master/LICENSE[Confluent Community License Agreement Version 1.0]
 * https://karapace.io/[Karapace]: Karapace (Aiven) is the open source REST proxy you can run where you need it; drop-in replacement for Confluent REST Proxy. https://github.com/aiven/karapace/blob/master/LICENSE[Apache License 2.0]
 * https://github.com/mailgun/kafka-pixy[Kafka Pixy]: gRPC/REST proxy for Kafka. https://github.com/mailgun/kafka-pixy/blob/master/LICENSE[Apache License 2.0]
+* - [Raccoon](https://github.com/odpf/raccoon) - Raccoon is a high-throughput, low-latency service to collect events in real-time from your web, mobile apps, and services using multiple network protocols and publish to Kafka.
 
 == Schema / Data
-
+* [Stencil](https://github.com/odpf/stencil) - Stencil is a Protobuf schema registry for Kafka that enables you to create, maintain and consume protobuf messages and APIs dynamically, efficiently, and reliably.
 * https://javro.github.io/[Javro]: Javro is an interface allowing you to write Avro schemas with ease, to validate it, and to preview it into JSON format with samples. https://github.com/javro/javro/blob/master/LICENSE[Gpl 3.0]
 * https://github.com/confluentinc/schema-registry[Confluent Schema Registry]: Confluent Schema Registry for Kafka. https://github.com/confluentinc/schema-registry/blob/master/LICENSE[Confluent Community License Agreement Version 1.0]
 * https://karapace.io/[Karapace]: Karapace (Aiven) is the open source schema registry you can run on your own platforms. Alternative (compatible replacement) for Confluent Schema Registry, supports Avro and JSON Schema. [https://github.com/aiven/karapace/blob/master/LICENSE[Apache License 2.0]
