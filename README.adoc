@@ -35,7 +35,7 @@ toc::[]
 == Configuration
 
 * https://github.com/devshawn/kafka-gitops[kafka-gitops]: Manage Apache Kafka topics and generate ACLs through a desired state file. https://github.com/devshawn/kafka-gitops/blob/master/LICENSE[Apache License 2.0]
-* https://github.com/streamthoughts/kafka-specs[Kafka Specs]: Tool to ease and automate Apache Kafka cluster configuration management. https://github.com/streamthoughts/kafka-specs/blob/master/LICENSE[Apache License 2.0]
+* https://github.com/streamthoughts/jikkou[Jikkou]: Tool to ease and automate Apache Kafka cluster configuration management. https://github.com/streamthoughts/kafka-specs/blob/master/LICENSE[Apache License 2.0]
 * https://kattlo.github.io/[kattlo]: Kattlo gives a way to manage topics, ACLs, users, schemas, ksqlDB, employing a evolutionary configuration. Easy to understand, easy to write and easy to apply. https://github.com/kattlo/kattlo-cli/blob/main/LICENSE[Apache License 2.0]
 * https://github.com/kafka-ops/julie[julie]: An operational manager for Apache Kafka (Automation, GitOps, SelfService) https://github.com/kafka-ops/julie/blob/master/LICENSE[MIT License]
 
